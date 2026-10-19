@@ -1,0 +1,70 @@
+body {
+    background-image: url(cat.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /* border: 10px dashed green; */
+}
+
+#box1 {
+    border: 5px solid;
+    width: 350px;
+    height: 400px;
+    font-size: 30px;
+    background-color: greenyellow;
+    padding: 50px 20px 40px 10px;
+    float: right;
+    overflow:auto ;
+}
+
+article {
+    font-size: x-large;
+}
+#box3 {
+    clear: right;
+}
+
+#sec1 {
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: skyblue;
+    position: relative;
+    top: 500px;
+    left: 50%;
+    bottom: 0;
+   
+}
+
+#sec2 {
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+a:link {
+    color: green;
+}
+a:visited {
+    color: grey;
+}
+a:hover {
+    color: tomato;
+}
+a:active {
+    color: yellow;
+}
+a{font-size: 30px;}
+
+button:hover {
+    color:red
+}
+
+li:nth-child(3n+2) {
+    background-color: blue;
+}
